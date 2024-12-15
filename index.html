@@ -7,6 +7,48 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
+    <!--Codigo de Reloj-->
+    <div class="container">
+        <div class="time" id="time">00:00:00</div>
+        <div class="date" id="date">01/01/1970</div>
+        <div class="message" id="message">Es hora de descansar. Apaga y sigue mañana</div>
+    </div>
+
+    <!--Código de generador de contraseñas-->
+    <div class="container1">
+        <h1>Generador de Contraseñas Seguras</h1>
+        <div class="input-container1">
+            <label for="length">Longitud de la contraseña (12-50):</label>
+            <input type="number" id="length" min="12" max="50" value="12">
+        </div>
+        <button onclick="generatePassword()">Generar Contraseña</button>
+        <div class="result" id="password"></div>
+    </div>
+
+    <!--Código de links-->
+    <div class="container3">
+        <h1>Listado de Links</h1>
+        <input type="text" id="linkTitle" placeholder="Título del enlace">
+        <input type="url" id="linkURL" placeholder="URL del enlace">
+        <button onclick="addLink()">Añadir Link</button>
+        <div class="links-list" id="linksList"></div>
+    </div>
+
+    <!--Código de Tiempo-->
+    <div class="container2">
+        <h1>Estación Meteorológica</h1>
+        <div class="weather-info" id="weatherInfo">
+            <h2 id="location"></h2>
+            <p id="weatherCondition"></p>
+            <img id="weatherIcon" src="" alt="Icono del clima">
+            <p id="temperature"></p>
+            <p>Precipitaciones: <span id="precipitation"></span></p>
+            <p>Humedad: <span id="humidity"></span></p>
+            <p>Viento: <span id="wind"></span> km/h</p>
+        </div>
+        <h3>Previsión por horas</h3>
+        <div class="forecast" id="forecast"></div>
+    </div>
     <script src="./js/index.js"></script>
 </body>
 </html>

@@ -1,0 +1,232 @@
+/*Codigo de Generador de contraseñas*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+}
+
+.container1 {
+    text-align: center;
+    background-color: rgb(41, 41, 79,0.5);
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 400px;
+    left: 300px;
+}
+
+.input-container1 {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+
+
+
+/*Codigo de Reloj*/
+
+.container {
+    text-align: center;
+    background-color: rgb(41, 41, 79,0.5);
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 400px;
+    left: 1880px;
+   
+}
+
+.time {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+
+
+
+/*Codigo de Links*/
+
+.container3 {
+    text-align: center;
+    background-color: rgb(41, 41, 79,0.5);
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 400px;
+    right: 600px;
+}
+
+
+
+input[type="text"], input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.links-list {
+    margin-top: 20px;
+}
+
+.link-item {
+    background-color: #3c3c5c;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-item a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 18px;
+    flex-grow: 1;
+}
+
+.link-item a:hover {
+    text-decoration: underline;
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/*Codigo de Tiempo*/
+
+.container2 {
+    background-color: rgb(41, 41, 79,0.5);
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.weather-info {
+    margin-bottom: 20px;
+}
+
+.weather-info img {
+    width: 64px;
+    height: 64px;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.hourly-forecast {
+    background-color: #3c3c5c;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 80px;
+}
+
+.hourly-forecast img {
+    width: 48px;
+    height: 48px;
+}
+
+
+.container4{ 
+    border-color: #ff4d4d solid 1px;
+}
+
+
+
